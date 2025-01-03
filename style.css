@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    scroll-behavior: smooth;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    color: rosybrown;
+    font-size: 24px;
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    height: 70px;
+    background-color: #885669;
+    z-index: 1;
+}
+
+main {
+    background-image: url("https://synevyr-park.in.ua/wp-content/uploads/2021/08/Skhyly_hory_Strymba_SashaBystrikov_Viki-liubyt-Zemliu.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image img {
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.image img:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+article {
+    width: 40%;
+    padding: 20px;
+    background-color: #885669;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+article p{
+    padding-bottom: 20px;
+}
+
+article:hover{
+    transform: scale(1.1);
+    color: #E9F1FA;
+    transition: 0.5s;
+}
+
+nav a {
+    color: snow;
+    text-decoration: none;
+    margin: auto 0px auto 0px;
+    padding-right: 50px;
+}
+
+nav a:hover {
+    color: rosybrown;
+}
+
+main {
+    margin-top: 70px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    padding: 10px;
+}
+
+section {
+    scroll-margin-top: 85px;
+}
+
+
+.footer {
+    padding: 40px;
+    background-color: #885669;
+    color: #E9F1FA;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.footer p,
+.footer a {
+    color: #E9F1FA;
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+.socials {
+    display: inline-block;
+}
+
+
+.socials img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.footer-author {
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery img{
+max-width: 300px;
+padding: 20px;
+}
+
+.gallery img:hover{
+    transform: scale(1.5);
+    transition: 2s;
+}
